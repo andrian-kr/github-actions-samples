@@ -77,10 +77,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     
-    env:
-      PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-      GKE_CLUSTER: autopilot-cluster-1    # TODO: update to cluster name
-      GKE_REGION: us-central1	   # TODO: update to cluster region
+    # env:
+    #   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
+    #   GKE_CLUSTER: autopilot-cluster-1    # TODO: update to cluster name
+    #   GKE_REGION: us-central1	   # TODO: update to cluster region
 
     steps:
     - name: Check out code

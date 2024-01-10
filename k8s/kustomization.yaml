@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: andriankrav/hello-gitops
-  newTag: b47426e42b990b0841e9304fa721c45cc4ca8c54
+  newTag: 86526ab6a2f20b37ee41120b928127c15da3584d
